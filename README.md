@@ -1,19 +1,21 @@
 # 2017_ZTE_Challenge_Dijkstra
 
+
 ## 运行环境： Windows10  DevC++ 5.11 TDM-GCC 4.9.2 64-bit Release
 
 注： 因为用到了C++11的特性，可能需要在编译选项中添加 -std=c++11
 （ 如果是使用DevC++直接打开工程文件，则请忽略这一配置步骤，工程中已经配置好了^^）
 
 
-编译好的可执行文件: 
+## 编译好的可执行文件: 
 Project_Heuristic.exe:        使用启发式策略
 Project_nonHeuristic.exe:   不使用启发式策略
 
 
+
 标准输入被重定向到 "board.txt"
 
-输入说明：
+## 输入说明：
 
 1. 图中节点个数N（节点编号从0~N-1）
 
@@ -30,12 +32,12 @@ Project_nonHeuristic.exe:   不使用启发式策略
 7. 最大跳数 maxHop 		  如： 12
 
 
-输出说明：
+## 输出说明：
   最优路径，若无解则输出No Paths！
 
 
 如下所示是一个输入范例：
-
+```
 18
 
 0	3	1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
@@ -71,3 +73,4 @@ Project_nonHeuristic.exe:   不使用启发式策略
 12
 
 12
+```
